@@ -36,16 +36,16 @@
             <span>Blast<span class="text-primary-400">Indo</span></span>
         </div>
         <nav class="flex-1 px-4 py-6 space-y-1">
-            <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg bg-primary-700 text-white font-medium">
+            <a href="{{ route('dashboard') }}" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-primary-700/60 transition text-emerald-100 font-medium">
                 <i class="fa-solid fa-chart-pie w-5"></i> Dashboard
             </a>
             <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-primary-700/60 transition text-emerald-100 font-medium">
                 <i class="fa-solid fa-address-book w-5"></i> Kontak
             </a>
-            <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-primary-700/60 transition text-emerald-100 font-medium">
+            <a href="{{ route('campaigns.index') }}" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-primary-700/60 transition text-emerald-100 font-medium">
                 <i class="fa-solid fa-paper-plane w-5"></i> Broadcast Blast
             </a>
-            <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-primary-700/60 transition text-emerald-100 font-medium">
+            <a href="{{ route('chat.index') }}" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-primary-700/60 transition text-emerald-100 font-medium">
                 <i class="fa-solid fa-comments w-5"></i> Live Chat Inbox
             </a>
         </nav>
